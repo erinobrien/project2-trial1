@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+     <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <div id="floating-panel">
+    <b>Mode of Travel: </b>
+    <select id="mode">
+      <option value="DRIVING">Driving</option>
+      <option value="WALKING">Walking</option>
+      <option value="BICYCLING">Bicycling</option>
+      <option value="TRANSIT">Transit</option>
+    </select>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPwqlxUQoOQTibIOj7gisEuoB8xgkIwso&callback=initMap">
+    </script>
+  </body>
+</html>
